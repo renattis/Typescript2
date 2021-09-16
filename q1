@@ -1,0 +1,25 @@
+lass Hcode {
+ 
+	constructor(){
+ 
+        this.list = [];
+ 
+        this.pushArray();
+ 
+    }
+ 
+    pushArray(){
+ 
+        let newList = [1, 2, 3];
+    
+        newList.forEach(function(value) {
+ 
+            this.list.push(value);
+ 
+        });
+ 
+        console.log(this.list);
+ 
+    }
+ 
+}
