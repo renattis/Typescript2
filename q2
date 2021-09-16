@@ -1,0 +1,5 @@
+var modoNormal = function(nome, apelido) { 
+  return 'Meu nome é ' + nome + ', meu apelido é ' + apelido; 
+}; 
+
+console.log( modoNormal ('Fábio Pedro', 'Jonny') );
